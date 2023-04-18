@@ -1,5 +1,6 @@
 # Phase-Retrieval with Incomplete Autocorrelations Using Deep Convolutional Autoencoders
 
+[![DOI](https://zenodo.org/badge/629452779.svg)](https://zenodo.org/badge/latestdoi/629452779)
 ![HIO vs Autoencoder image reconstruction](paper_images/toc.png)
 
 ## Folder structure and code outline

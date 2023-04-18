@@ -1,0 +1,1 @@
+python train_slurm.py --batch_size 128 --n_epochs 2500 --norm l1 --lr 1e-3 --n_gpus 2 --partial --radius 64 --shrink --shrink_epoch 2500 --shrink_step 1000 --scheduler_milestone 2000

@@ -1,0 +1,8 @@
+*.pyc
+*.pth
+*.png
+*.ckpt
+__*/
+__*
+!/*.png
+!*paper_images/*

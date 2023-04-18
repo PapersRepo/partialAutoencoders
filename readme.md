@@ -32,7 +32,7 @@ Follow these instructions to run the code in evaluation mode and recreate the pa
 7) download the [validation dataset](https://drive.google.com/drive/folders/1QV1E2rJL5KyUfqg0Lnih8Pyo7VklWx7B?usp=share_link) and move all the images to the **check_dataset/val** folder
 8) open and run the `paper_plots.ipynb` notebook to create the paper figures, and modify it as you see fit to play with the trained models. The notebook runs on a **cpu*** backend and requires a few GB of memory to run correctly. It takes a few minutes to complete the first run, depending on your machine hardware.
 
-## Training the model from scratch
+## Training the model
 
 The model was trained on a slurm cluster with several Nvidia V100 GPUs. To train it on your own you should:
 

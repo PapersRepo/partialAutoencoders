@@ -29,7 +29,7 @@ Follow these instructions to run the code in evaluation mode and recreate the pa
 4) activate the environment: `conda activate pytorch_lightning`;
 5) verify that the environment was installed correctly: `conda env list`;
 6) download the network [checkpoints](https://drive.google.com/drive/folders/1JKlFisSBgb7lJwuLsnEXAwr63Dw8Vo4o?usp=share_link) and move them to the **paper_checkpoints** folder;
-7) either create (with the `create_training_data.py`) or [download](https://drive.google.com/drive/folders/1QV1E2rJL5KyUfqg0Lnih8Pyo7VklWx7B?usp=share_link) the validation dataset, and move all the images to the **check_dataset/val** folder
+7) download the [validation dataset](https://drive.google.com/drive/folders/1QV1E2rJL5KyUfqg0Lnih8Pyo7VklWx7B?usp=share_link) and move all the images to the **check_dataset/val** folder
 8) open and run the `paper_plots.ipynb` notebook to create the paper figures, and modify it as you see fit to play with the trained models. The notebook runs on a **cpu*** backend and requires a few GB of memory to run correctly. It takes a few minutes to complete the first run, depending on your machine hardware.
 
 ## Training the model from scratch

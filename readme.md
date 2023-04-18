@@ -19,7 +19,7 @@ This repository contains the code for the paper **Phase-Retrieval with Incomplet
 - **working_training_dataset**: contains the uncompressed validation dataset to be used during the actual training. All the images must be contained in the **val** subfolder;
 
 
-## Running the model in evaluation mode and creating the paper figures.
+## Running the model in evaluation mode and creating the paper figures
 
 Follow these instructions to run the code in evaluation mode and recreate the paper figures:
 

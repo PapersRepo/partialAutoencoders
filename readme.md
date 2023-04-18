@@ -36,6 +36,6 @@ Follow these instructions to run the code in evaluation mode and recreate the pa
 
 The model was trained on a slurm cluster with several Nvidia V100 GPUs. To train it on your own you should:
 
-- Follow the points 1 through 6 from the previous paragraph
+- follow the points 1 through 6 from the previous paragraph
 - either create (with the `create_training_data.py`) or [download](https://drive.google.com/drive/folders/1QV1E2rJL5KyUfqg0Lnih8Pyo7VklWx7B?usp=share_link) the training and validation datasets, and move all the images to the **working_training_dataset/train** and **working_validation_dataset/val** folders.
-- run the `train_slurm.py` script. And example on how to run it can be found in the `train_slurm.sh` shell script. Of course you must adjust all the script parameters according to your hardware and what you want to obtain. Running `python train_slurm.py --help` will return a brief description of each parameter.
+- run the `train_slurm.py` script. An example on how to run it can be found in the `train_slurm.sh` shell script. Of course you must adjust all the script parameters according to your hardware and what you want to obtain. Running `python train_slurm.py --help` will return a brief description of each parameter.

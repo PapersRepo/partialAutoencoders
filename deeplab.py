@@ -1,3 +1,7 @@
+"""
+modified from https://github.com/yassouali/pytorch-segmentation
+"""
+
 import logging
 import torch.nn as nn
 import numpy as np
